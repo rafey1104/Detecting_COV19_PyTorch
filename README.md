@@ -28,4 +28,4 @@ The project aims to create a machine learning model for classifying Chest X-ray 
   - Training Loss: 0.1394
   - Validation Loss: 0.1394
   - Final Accuracy on the test set: 95.56%
-
+- The model successfully classified Chest X-ray images into the three categories, with a strong emphasis on identifying COVID-19 cases.
