@@ -11,7 +11,7 @@ The project aims to create a machine learning model for classifying Chest X-ray 
  - Training and test sets were prepared by splitting the data into these two sets, ensuring a balanced distribution of images.
 
 -<h3>Image Transformations</h3>
- -Image transformations were defined to standardize the input data, including resizing, data augmentation (e.g., horizontal flipping), and normalization.
+ - Image transformations were defined to standardize the input data, including resizing, data augmentation (e.g., horizontal flipping), and normalization.
 
 ## Result
 
