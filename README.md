@@ -9,7 +9,8 @@ The project aims to create a machine learning model for classifying Chest X-ray 
  - The COVID-19 Radiography Database was used, containing images from the three categories: Normal, Viral Pneumonia, and COVID-19. 
  - A custom dataset was created to load and preprocess these images.
  - Training and test sets were prepared by splitting the data into these two sets, ensuring a balanced distribution of images.
- - -<h3>Image Transformations</h3>
+
+-<h3>Image Transformations</h3>
 -Image transformations were defined to standardize the input data, including resizing, data augmentation (e.g., horizontal flipping), and normalization.
 
 ## Result
