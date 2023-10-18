@@ -13,6 +13,19 @@ The project aims to create a machine learning model for classifying Chest X-ray 
 -<h3>Image Transformations</h3>
  - Image transformations were defined to standardize the input data, including resizing, data augmentation (e.g., horizontal flipping), and normalization.
 
-## Result
+-<h3>Model Creation</h3>
+ - A pre-trained ResNet-18 model from PyTorch's torchvision library was used.
+ - The final fully connected layer of the model was replaced to match the three output classes (Normal, Viral Pneumonia, and COVID-19).
 
+-<h3>Training the Model</h3>
+ - The model was trained for a specified number of epochs using an Adam optimizer and cross-entropy loss.
+ - The training loop includes evaluating the model's performance on the test set at regular intervals.
+ - Training was stopped when the model achieved a satisfactory accuracy of 95% or more on the test set.
+
+
+## Result
+- The model was trained for one epoch, and the following results were achieved:
+  - Training Loss: 0.1394
+  - Validation Loss: 0.1394
+  - Final Accuracy on the test set: 95.56%
 
